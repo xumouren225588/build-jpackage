@@ -2,8 +2,7 @@ name: Build Installers
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 10 1/6 * *'
+  
 
 jobs:
   build-linux-installer:
